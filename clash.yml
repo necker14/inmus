@@ -71,7 +71,7 @@ proxies:
   - name: "Cindy - KR"
     type: vmess
     server: cindy.marythunt.xyz
-    port: 443
+    port: 8080
     uuid: 90558906-f8f1-493b-8f1b-33d5bb3cf39f
     alterId: "0"
     cipher: auto
