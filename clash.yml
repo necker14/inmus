@@ -6,7 +6,7 @@ proxies:
     uuid: a6308d93-bac5-45a1-920a-e24d90d336b7
     alterId: "0"
     cipher: auto
-    udp: false
+    udp: true
     tls: true
     network: ws
     ws-opts:
@@ -20,7 +20,7 @@ proxies:
     uuid: 9016a6df-ae4f-424a-adf3-df28700180c4
     alterId: "0"
     cipher: auto
-    udp: false
+    udp: true
     tls: true
     network: ws
     ws-opts:
@@ -34,7 +34,7 @@ proxies:
     uuid: ed305f72-266c-4470-ada7-f20af731dd3c
     alterId: "0"
     cipher: auto
-    udp: false
+    udp: true
     tls: true
     network: ws
     ws-opts:
@@ -48,7 +48,7 @@ proxies:
     uuid: f5ebd669-b3e0-4c43-bfb7-190b946970af
     alterId: "0"
     cipher: auto
-    udp: false
+    udp: true
     tls: true
     network: ws
     ws-opts:
@@ -62,10 +62,68 @@ proxies:
     uuid: 04e27574-eb99-4b43-b5d6-a695d36e7654
     alterId: "0"
     cipher: auto
-    udp: true
     tls: true
     network: ws
     ws-opts:
       path: /cacha
       headers:
         Host: lily.tyems.xyz
+
+  - name: "Cindy - KR"
+    type: vmess
+    server: cindy.tyems.xyz
+    port: 443
+    uuid: 63c308bb-0507-4574-9dba-2a56efde1b34
+    alterId: "0"
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: cindy.tyems.xyz
+
+  - name: "Tulip - US"
+    type: vmess
+    server: tulip.tyems.xyz
+    port: 443
+    uuid: 3afd30b5-b7a3-4ad8-b279-e6408736df68
+    alterId: "0"
+    cipher: auto
+    udp: true
+    tls: true
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: tulip.tyems.xyz
+
+  - name: "Mosaic - DE"
+    type: vmess
+    server: mosaic.marythunt.xyz
+    port: 443
+    uuid: 9675ee40-5c61-4c49-93c7-dc1b51bb0f23
+    alterId: "0"
+    cipher: auto
+    udp: true
+    tls: true
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: mosaic.marythunt.xyz
+
+  - name: "Sara - RUS"
+    type: vmess
+    server: sara.marythunt.xyz
+    port: 443
+    uuid: c566e9ed-d11e-44ca-9825-71edf649939d
+    alterId: "0"
+    cipher: auto
+    udp: true
+    tls: true
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: sara.marythunt.xyz
