@@ -68,12 +68,11 @@ proxies:
       path: /cacha
       headers:
         Host: lily.tyems.xyz
-
   - name: "Cindy - KR"
     type: vmess
-    server: cindy.tyems.xyz
+    server: cindy.marythunt.xyz
     port: 443
-    uuid: 63c308bb-0507-4574-9dba-2a56efde1b34
+    uuid: de37d539-b0f8-455b-b1ba-5007e2320a78
     alterId: "0"
     cipher: auto
     tls: true
@@ -81,9 +80,8 @@ proxies:
     ws-opts:
       path: /
       headers:
-        Host: cindy.tyems.xyz
-
-  - name: "Tulip - US"
+        Host: cindy.marythunt.xyz
+  - name: "Tulip - JP"
     type: vmess
     server: tulip.tyems.xyz
     port: 443
@@ -97,7 +95,6 @@ proxies:
       path: /
       headers:
         Host: tulip.tyems.xyz
-
   - name: "Mosaic - DE"
     type: vmess
     server: mosaic.marythunt.xyz
@@ -112,7 +109,6 @@ proxies:
       path: /
       headers:
         Host: mosaic.marythunt.xyz
-
   - name: "Sara - RUS"
     type: vmess
     server: sara.marythunt.xyz
