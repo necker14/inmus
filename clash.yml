@@ -72,7 +72,7 @@ proxies:
     type: vmess
     server: cindy.marythunt.xyz
     port: 443
-    uuid: de37d539-b0f8-455b-b1ba-5007e2320a78
+    uuid: 90558906-f8f1-493b-8f1b-33d5bb3cf39f
     alterId: "0"
     cipher: auto
     tls: true
