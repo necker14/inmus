@@ -13,6 +13,20 @@ proxies:
       path: /
       headers:
         Host: eva.tyems.xyz
+  - name: "Zero - US"
+    type: vmess
+    server: zero.tyems.xyz
+    port: 443
+    uuid: efafa03f-cd1f-4fab-a88b-bc9013cec9f3
+    alterId: "0"
+    cipher: auto
+    udp: true
+    tls: true
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: zero.tyems.xyz
   - name: "Chic - US"
     type: vmess
     server: chic.tyems.xyz
