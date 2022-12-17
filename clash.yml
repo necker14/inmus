@@ -72,14 +72,14 @@ proxies:
   - name: "Lily - JP"
     type: vmess
     server: lily.tyems.xyz
-    port: 443
-    uuid: 04e27574-eb99-4b43-b5d6-a695d36e7654
+    port: 8080
+    uuid: 2be64a74-6811-4aee-922e-e27f509939f6
     alterId: "0"
     cipher: auto
     tls: true
     network: ws
     ws-opts:
-      path: /cacha
+      path: /
       headers:
         Host: lily.tyems.xyz
   - name: "Cindy - KR"
