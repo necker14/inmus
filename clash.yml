@@ -16,8 +16,8 @@ proxies:
   - name: "Zero - US"
     type: vmess
     server: zero.tyems.xyz
-    port: 8080
-    uuid: 6960ffb2-1f5e-48c1-fa49-13f97df80e86
+    port: 443
+    uuid: 00acde3d-eae7-4acc-bc08-8b23a7b99678
     alterId: "0"
     cipher: auto
     udp: true
