@@ -93,8 +93,6 @@ proxies:
     network: ws
     ws-opts:
       path: /
-      headers:
-        Host: cindy.marythunt.xyz
   - name: "Tulip - JP"
     type: vmess
     server: tulip.tyems.xyz
