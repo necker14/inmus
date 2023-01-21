@@ -72,8 +72,8 @@ proxies:
   - name: "Lily - JP"
     type: vmess
     server: lily.tyems.xyz
-    port: 8080
-    uuid: 2be64a74-6811-4aee-922e-e27f509939f6
+    port: 443
+    uuid: 3e3da0c0-a5af-4f69-baf7-7b3531dfcebb
     alterId: "0"
     cipher: auto
     tls: true
@@ -84,9 +84,9 @@ proxies:
         Host: lily.tyems.xyz
   - name: "Cindy - KR"
     type: vmess
-    server: cindy.marythunt.xyz
-    port: 8080
-    uuid: 90558906-f8f1-493b-8f1b-33d5bb3cf39f
+    server: cindy.tyems.xyz
+    port: 443
+    uuid: 6baf7a8c-6940-486a-bdc3-e5581f908b59
     alterId: "0"
     cipher: auto
     tls: true
