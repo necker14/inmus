@@ -2,8 +2,8 @@ proxies:
   - name: "Eva - US"
     type: vmess
     server: eva.tyems.xyz
-    port: 8080
-    uuid: 824c07c3-773f-4b59-8d2a-b3eb54b779fa
+    port: 443
+    uuid: 1d0845d5-afd2-4d52-b981-14ea7054d940
     alterId: "0"
     cipher: auto
     udp: true
