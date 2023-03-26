@@ -1,18 +1,4 @@
 proxies:
-  - name: "Eva - US"
-    type: vmess
-    server: eva.tyems.xyz
-    port: 443
-    uuid: 1d0845d5-afd2-4d52-b981-14ea7054d940
-    alterId: "0"
-    cipher: auto
-    udp: true
-    tls: true
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: eva.tyems.xyz
   - name: "Zero - US"
     type: vmess
     server: zero.tyems.xyz
