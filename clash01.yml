@@ -1,8 +1,1 @@
-proxies:
-  - name: "cindy"
-    type: ss
-    server: 161.129.34.11
-    port: 16548
-    cipher: 2022-blake3-aes-256-gcm
-    password: "jaKamvY3sYNaYKM6hKgTrfyLGaROtwKOqmFbVE0fJ669"
-    udp: true
+ss://MjAyMi1ibGFrZTMtYWVzLTI1Ni1nY206amFLYW12WTNzWU5hWUtNNmhLZ1RyZnlMR2FST3R3S09xbUZiVkUwZko2Njk=@cindy.marythunt.xyz:16548#Cindy%20-%20KR
