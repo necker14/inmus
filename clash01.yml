@@ -1,3 +1,24 @@
-ss://MjAyMi1ibGFrZTMtYWVzLTI1Ni1nY206OVo2c3pHZGQxc0I1OVB3MUdvY1d3ZHc5VTU3emdVRE84Y3NPcUdJQUxKblE=@bunny.marythunt.xyz:56472#Bunny%20-%20JP
-ss://MjAyMi1ibGFrZTMtYWVzLTI1Ni1nY206ekQ2OFBxSk1wZGd4VW4zdGhPNjdQT2ZXenJ1OFBqdmdRSG9MTlMweXBZblk=@eva.marythunt.xyz:28115#Eva%20-%20US
-ss://MjAyMi1ibGFrZTMtYWVzLTI1Ni1nY206amFLYW12WTNzWU5hWUtNNmhLZ1RyZnlMR2FST3R3S09xbUZiVkUwZko2Njk=@cindy.marythunt.xyz:16548#Cindy%20-%20KR
+proxies: # socks5
+    - name: "Eva - US"
+    type: vless
+    server: eva.marythunt.xyz
+    port: 443
+    uuid: 2fcebae1-899e-4719-9d0c-60c938526019
+    network: tcp
+    tls: true
+    udp: true
+    xudp: true
+    flow: xtls-rprx-vision 
+    client-fingerprint: chrome
+
+    - name: "Bunny - JP"
+    type: vless
+    server: bunny.marythunt.xyz
+    port: 443
+    uuid: 4c743f4f-0b46-4c61-8c02-a861ed3af376
+    network: tcp
+    tls: true
+    udp: true
+    xudp: true
+    flow: xtls-rprx-vision 
+    client-fingerprint: chrome
