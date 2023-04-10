@@ -55,19 +55,6 @@ proxies:
       path: /
       headers:
         Host: polaris.tyems.xyz
-  - name: "Lily - JP"
-    type: vmess
-    server: lily.tyems.xyz
-    port: 443
-    uuid: 3e3da0c0-a5af-4f69-baf7-7b3531dfcebb
-    alterId: "0"
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: lily.tyems.xyz
   - name: "Cindy - KR"
     type: vmess
     server: cindy.tyems.xyz
