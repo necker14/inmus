@@ -1,0 +1,13 @@
+proxies:
+  - name: "Eva - US - reality"
+    type: vless
+    server: 154.214.4.123
+    port: 51738
+    uuid: 7e635259-477a-4f9a-bc19-d17f8f226a35
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: www.microsoft.com
+    reality-opts:
+      public-key: W9BjX6YmCIVsjhKMlz233Yoe0xcf0SVHfvPKqbf3vCg
