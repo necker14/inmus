@@ -41,7 +41,6 @@ proxies:
       path: /
       headers:
         Host: uim.tyems.xyz
-  
   - name: "Cindy - KR"
     type: vmess
     server: cindy.tyems.xyz
@@ -67,7 +66,6 @@ proxies:
       path: /
       headers:
         Host: tulip.tyems.xyz
- 
   - name: "Sara - RUS"
     type: vmess
     server: sara.marythunt.xyz
