@@ -41,20 +41,7 @@ proxies:
       path: /
       headers:
         Host: uim.tyems.xyz
-  - name: "Polaris - US"
-    type: vmess
-    server: polaris.tyems.xyz
-    port: 443
-    uuid: f5ebd669-b3e0-4c43-bfb7-190b946970af
-    alterId: "0"
-    cipher: auto
-    udp: true
-    tls: true
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: polaris.tyems.xyz
+  
   - name: "Cindy - KR"
     type: vmess
     server: cindy.tyems.xyz
@@ -80,20 +67,7 @@ proxies:
       path: /
       headers:
         Host: tulip.tyems.xyz
-  - name: "Mosaic - DE"
-    type: vmess
-    server: mosaic.marythunt.xyz
-    port: 443
-    uuid: 9675ee40-5c61-4c49-93c7-dc1b51bb0f23
-    alterId: "0"
-    cipher: auto
-    udp: true
-    tls: true
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: mosaic.marythunt.xyz
+ 
   - name: "Sara - RUS"
     type: vmess
     server: sara.marythunt.xyz
