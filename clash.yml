@@ -16,6 +16,7 @@ dns:
     - tls://dns.google:853
 proxies:
   - {name: 🇺🇸 Eva - US - reality, server: 154.214.4.123, port: 51738, reality-opts: {public-key: W9BjX6YmCIVsjhKMlz233Yoe0xcf0SVHfvPKqbf3vCg}, client-fingerprint: chrome, type: vless, uuid: 7e635259-477a-4f9a-bc19-d17f8f226a35, tls: true, tfo: false, servername: itunes.apple.com, flow: xtls-rprx-vision, skip-cert-verify: false}
+  - {name: 🇺🇸 Zero - US - reality, server: 104.225.233.193, port: 29269, reality-opts: {public-key: 9rx7JwMO-KRZZEM9TQBO19BOAmmGjJyjN86ll2J7uVc}, client-fingerprint: chrome, type: vless, uuid: 485775d6-f6ec-4ea2-cb8b-efc959ebf3a8, tls: true, tfo: false, servername: itunes.apple.com, flow: xtls-rprx-vision, skip-cert-verify: false}
   - {name: 🇺🇸 Muir - US - reality, server: 173.82.252.139, port: 31872, reality-opts: {public-key: rwpbqas_HY8knlW0fFSIeUrjgBXHBzSNboflsLD8elA}, client-fingerprint: chrome, type: vless, uuid: 09b9e996-ee55-432a-b64b-7c527e262dfd, tls: true, tfo: false, servername: itunes.apple.com, flow: xtls-rprx-vision, skip-cert-verify: false}
   - {name: 🇺🇸 Bruce - US - reality, server: 23.95.215.3, port: 33583, reality-opts: {public-key: rwpbqas_HY8knlW0fFSIeUrjgBXHBzSNboflsLD8elA}, client-fingerprint: chrome, type: vless, uuid: fec409e2-3523-4ffd-b600-dc1931238bdb, tls: true, tfo: false, servername: itunes.apple.com, flow: xtls-rprx-vision, skip-cert-verify: false}
   - {name: 🇯🇵 Bunny - JP - reality, server: 141.11.139.97, port: 59096, reality-opts: {public-key: 4comh-7Jm_wZXJQ5QiLSCbVGQIbMUzHUIBdb0aFtLzM}, client-fingerprint: chrome, type: vless, uuid: 7c06b324-2902-4dde-db87-0235c1e72b1b, tls: true, tfo: false, servername: itunes.apple.com, flow: xtls-rprx-vision, skip-cert-verify: false}
@@ -32,6 +33,7 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - 🇺🇸 Eva - US - reality
+      - 🇺🇸 Zero - US - reality
       - 🇺🇸 Muir - US - reality
       - 🇺🇸 Bruce - US - reality
       - 🇯🇵 Bunny - JP - reality
@@ -48,6 +50,7 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 🇺🇸 Eva - US - reality
+      - 🇺🇸 Zero - US - reality
       - 🇺🇸 Muir - US - reality
       - 🇺🇸 Bruce - US - reality
       - 🇯🇵 Bunny - JP - reality
@@ -64,6 +67,7 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 🇺🇸 Eva - US - reality
+      - 🇺🇸 Zero - US - reality
       - 🇺🇸 Muir - US - reality
       - 🇺🇸 Bruce - US - reality
       - 🇯🇵 Bunny - JP - reality
@@ -79,6 +83,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - 🇺🇸 Eva - US - reality
+      - 🇺🇸 Zero - US - reality
       - 🇺🇸 Muir - US - reality
       - 🇺🇸 Bruce - US - reality
       - 🇯🇵 Bunny - JP - reality
@@ -94,6 +99,7 @@ proxy-groups:
       - 🎯 全球直连
       - 🚀 节点选择
       - 🇺🇸 Eva - US - reality
+      - 🇺🇸 Zero - US - reality
       - 🇺🇸 Muir - US - reality
       - 🇺🇸 Bruce - US - reality
       - 🇯🇵 Bunny - JP - reality
@@ -109,6 +115,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - 🇺🇸 Eva - US - reality
+      - 🇺🇸 Zero - US - reality
       - 🇺🇸 Muir - US - reality
       - 🇺🇸 Bruce - US - reality
       - 🇯🇵 Bunny - JP - reality
@@ -125,6 +132,7 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🇺🇸 Eva - US - reality
+      - 🇺🇸 Zero - US - reality
       - 🇺🇸 Muir - US - reality
       - 🇺🇸 Bruce - US - reality
       - 🇯🇵 Bunny - JP - reality
@@ -157,6 +165,7 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🇺🇸 Eva - US - reality
+      - 🇺🇸 Zero - US - reality
       - 🇺🇸 Muir - US - reality
       - 🇺🇸 Bruce - US - reality
       - 🇯🇵 Bunny - JP - reality
